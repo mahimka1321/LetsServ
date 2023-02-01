@@ -80,6 +80,14 @@ body
     cursor: pointer;
 }
 
+.container_logo > a
+{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
 .container_nav > ul 
 {
     display: flex;
@@ -855,7 +863,7 @@ footer{ transition: 0.3s; margin: 0 auto;}
     margin-top: 25px;
 }
 
-.s-svg_footer > svg 
+.s-svg_footer > a > svg 
 {
     margin-left: 25px;
 }
