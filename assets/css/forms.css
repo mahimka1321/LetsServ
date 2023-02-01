@@ -136,6 +136,7 @@
 .t-input-group_ta textarea.t-input 
 {
     resize: vertical;
+    padding-top: 15px;
 }
 
 .t-select 
