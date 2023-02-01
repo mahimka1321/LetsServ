@@ -37,6 +37,7 @@ body
     background: #1B1B1B;
     height: 100%;
     overflow-x: hidden;
+    animation: bodyAnimatic 0.5s;
 }
 
 /*//////////////////////////////////////*/
@@ -207,6 +208,8 @@ body
     font-size: 20px;
     font-weight: 400;
     padding-top: 10px;
+    width: 1440px;
+    margin: 0 auto;
 }  
 
 .line__info_courses > p > .data_courses
@@ -222,7 +225,6 @@ body
     min-width: 320px;
     max-width: 1400px;
     width: 100%;
-    margin: 0 auto;
 }
 
 /*//////////////////////////////////////*/
@@ -230,6 +232,7 @@ body
 .container_engineer
 {
     display: flex;
+    margin: 0 auto;
     margin-top: 120px;
 }
 
@@ -270,6 +273,7 @@ body
 
 .container_salary
 {
+    margin: 0 auto;
     margin-top: 160px;
 }
 
@@ -333,6 +337,7 @@ body
 .about_company
 {
     display: flex;
+    margin: 0 auto;
     margin-top: 180px;
 }
 
@@ -362,6 +367,7 @@ body
 {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     margin-top: 75px;
 }
 
@@ -441,6 +447,7 @@ body
 
 .containe_advantages
 {
+    margin: 0 auto;
     margin-top: 100px;
 }
 
@@ -489,6 +496,11 @@ body
     background: #000;
     overflow: hidden;
     margin-top: 100px;
+}
+
+.container__control_courses
+{
+    margin-left: 260px;
 }
 
 .info_courses
@@ -628,7 +640,8 @@ body
 
 .container_services
 {
-    margin-top: 100px;
+    margin: 0 auto;
+    margin-top: 170px;
 }
 
 .container_services::after
@@ -671,6 +684,7 @@ body
 
 .container_guarantees
 {
+    margin: 0 auto;
     margin-top: 170px;
 }
 
@@ -801,7 +815,16 @@ body
 /*//////////////////////////////////////*/
 
 header{ transition: 0.3s; margin: 0 auto;}
-main{ transition: 0.3s;  margin: 0 auto;}
+main
+{ 
+    transition: 0.3s;  
+    min-width: 320px;
+    max-width: 13500px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
 footer{ transition: 0.3s; margin: 0 auto;}
 
 .op_site

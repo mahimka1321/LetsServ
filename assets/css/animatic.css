@@ -1,3 +1,12 @@
+@keyframes bodyAnimatic 
+{
+    0% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
+}
+
 .container_nav > ul > li > a:hover
 {
     color: var(--color-text);
