@@ -1,0 +1,33 @@
+
+@media (max-width: 520px) {
+    /* шапка */
+    .nav__header_logo
+    {
+        display: none;
+    }
+    .container_nav > ul > li
+    {
+        margin-left: 20px;
+    }
+        .container_nav > ul > li > a
+    {
+        font-size: 14px;
+    }
+    /* шапка ++ */
+    .container__BH_text > h1
+    {
+        font-size: 32px;
+    }
+    .container__BH_text > p
+    {
+        font-size: 16px;
+    }
+    .container__BH_btn > button
+    {
+        width: 120px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
