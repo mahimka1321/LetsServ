@@ -1,0 +1,116 @@
+.container_nav > ul > li > a:hover
+{
+    color: var(--color-text);
+    transition: 0.3s;
+}
+
+.one-b:hover
+{
+    border: 3px solid var(--bg-button);
+    background: none;
+    color: var(--color-text);
+    transition: 0.4s;
+}
+
+.one-b:hover + .twoo-b
+{
+    background: var(--bg-button);
+    border: none;
+    color: var(--bg-site);
+    transition: 0.4s;
+}
+
+.twoo-b:hover
+{
+    background: var(--bg-button);
+    border: none;
+    color: var(--bg-site);
+    transition: 0.4s;
+}
+
+.twoo-b:hover ~ .one-b
+{
+    border: 3px solid var(--bg-button);
+    background: none;
+    color: var(--color-text);
+    transition: 0.4s;
+}
+
+.barracks:hover  .info_barracks
+{
+    display: block;
+    margin-top: -270px;
+    text-align: left;
+    margin-left: 35px;
+    width: 280px;
+}
+
+.barracks:hover > .name_barracks
+{
+    color: #1B1B1B;
+    transition: 0.3s;
+}
+
+.barracks:hover > .photo_barracks
+{
+    opacity: 0;
+    transition: 0.3s;
+}  
+
+.korneev:hover  .info_korneev
+{
+    display: block;
+    margin-top: -270px;
+    text-align: left;
+    margin-left: 35px;
+    width: 280px;
+}
+
+.korneev:hover > .name_korneev
+{
+    color: #1B1B1B;
+    transition: 0.3s;
+}
+
+.korneev:hover > .photo_korneev
+{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.mazhanov:hover  .info_mazhanov
+{
+    display: block;
+    margin-top: -270px;
+    text-align: left;
+    margin-left: 35px;
+    width: 280px;
+}
+
+.mazhanov:hover > .name_mazhanov
+{
+    color: #1B1B1B;
+    transition: 0.3s;
+}
+
+.mazhanov:hover > .photo_mazhanov
+{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+@keyframes popup {
+    0%{
+        height: 0;
+    } 100% {
+        height: 700px;
+    }
+}
+
+@keyframes scrol_popup {
+    0%{
+        height: 0;
+    } 100% {
+        height: 550px;
+    }
+}
