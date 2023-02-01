@@ -1,4 +1,63 @@
 
+@media (max-width: 1570px) {
+    /*  */
+    .img_engineer
+    {
+        margin-left: 120px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container_engineer
+    {
+        display: grid;
+        justify-content: center;
+    }
+    .container_engineer::after
+    {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 850px;
+        content: '';
+        min-width: 100px;
+        max-width: 1728px;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.01%, #FFFFFF 49.48%, rgba(255, 255, 255, 0) 100%);
+    }
+    .container__text_engineer
+    {
+        margin: 0 auto;
+    }
+    .img_engineer
+    {
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container_engineer::after
+    {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 750px;
+        content: '';
+        min-width: 100px;
+        max-width: 1728px;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.01%, #FFFFFF 49.48%, rgba(255, 255, 255, 0) 100%);
+    }
+    .img_engineer
+    {
+        width: 420px;
+    }
+}
+
 @media (max-width: 520px) {
     /* шапка */
     .nav__header_logo
@@ -29,5 +88,62 @@
         font-size: 16px;
         font-weight: 500;
         cursor: pointer;
+    }
+    /* когда курсы */
+    .line__info_courses > p 
+    {
+        font-size: 16px;
+    }
+
+    .container__text_engineer > h1
+    {
+        font-size: 32px;
+        font-weight: 300;
+        min-width: 200px;
+        max-width: 435px;
+        width: 100%;
+    }
+    
+    .container__text_engineer > p
+    {
+        font-size: 16px;
+        font-weight: 300;
+        min-width: 200px;
+        max-width: 435px;
+        width: 100%;
+    }
+    .container_engineer::after
+    {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 550px;
+        content: '';
+        min-width: 100px;
+        max-width: 1728px;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.01%, #FFFFFF 49.48%, rgba(255, 255, 255, 0) 100%);
+    }
+    .img_engineer
+    {
+        width: 270px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    /* когда курсы */
+    .line__info_courses
+    {
+        height: 60px;
+    }
+}
+
+@media (max-width: 375px) {
+    /* когда курсы */
+    .line__info_courses > p 
+    {
+        font-size: 14px;
     }
 }
