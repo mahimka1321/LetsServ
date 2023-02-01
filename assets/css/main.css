@@ -873,3 +873,27 @@ footer{ transition: 0.3s; margin: 0 auto;}
     margin-left: 620px;
     padding-bottom: 50px;
 }
+
+.__page_services-a::after
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+    content: '';
+    width: 1728px;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.01%, #FFFFFF 49.48%, rgba(255, 255, 255, 0) 100%);
+}
+
+.footer_servicse::after
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: -535px;
+    content: '';
+    width: 1728px;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.01%, #FFFFFF 49.48%, rgba(255, 255, 255, 0) 100%);
+}
