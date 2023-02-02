@@ -487,6 +487,8 @@ body
 {
     margin: 0 auto;
     margin-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .containe_advantages > h1
