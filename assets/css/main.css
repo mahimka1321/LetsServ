@@ -895,6 +895,8 @@ footer{ transition: 0.3s; margin: 0 auto;}
     white-space: pre-wrap;
     word-wrap: break-word;
     text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 /*//////////////////////////////////////*/
