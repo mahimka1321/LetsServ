@@ -228,7 +228,7 @@ body
 
 .container
 {
-    min-width: 320px;
+    min-width: 200px;
     max-width: 1400px;
     width: 100%;
 }
@@ -690,7 +690,9 @@ body
 .container_services
 {
     margin: 0 auto;
-    margin-top: 170px;
+    margin-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .container_services::after
@@ -700,7 +702,9 @@ body
     transform: translate(-50%);
     margin-top: 100px;
     content: '';
-    width: 1728px;
+    min-width: 100px;
+    max-width: 1728px;
+    width: 100%;
     height: 2px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.01%, #FFFFFF 49.48%, rgba(255, 255, 255, 0) 100%);
 }
@@ -735,6 +739,8 @@ body
 {
     margin: 0 auto;
     margin-top: 170px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .container_guarantees::after
@@ -744,7 +750,9 @@ body
     transform: translate(-50%);
     margin-top: 100px;
     content: '';
-    width: 1728px;
+    min-width: 100px;
+    max-width: 1728px;
+    width: 100%;
     height: 2px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.01%, #FFFFFF 49.48%, rgba(255, 255, 255, 0) 100%);
 }
@@ -753,6 +761,8 @@ body
 {
     font-size: 48px;
     font-weight: 400;
+    max-width: 350px;
+    width: 100%;
 }
 .container_guarantees > h1 > img
 {
@@ -766,7 +776,8 @@ body
     font-size: 20px;
     font-weight: 300;
     margin-top: 20px;
-    width: 750px;
+    max-width: 750px;
+    width: 100%;
 }
 
 /*/////////////////////////*/
@@ -904,6 +915,8 @@ footer{ transition: 0.3s; margin: 0 auto;}
 .container_footer
 {
     margin-top: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .container_footer > h1
@@ -954,7 +967,9 @@ footer{ transition: 0.3s; margin: 0 auto;}
     transform: translate(-50%);
     margin-top: 50px;
     content: '';
-    width: 1728px;
+    min-width: 100px;
+    max-width: 1728px;
+    width: 100%;
     height: 2px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.01%, #FFFFFF 49.48%, rgba(255, 255, 255, 0) 100%);
 }
@@ -966,7 +981,9 @@ footer{ transition: 0.3s; margin: 0 auto;}
     transform: translate(-50%);
     margin-top: -535px;
     content: '';
-    width: 1728px;
+    min-width: 100px;
+    max-width: 1728px;
+    width: 100%;
     height: 2px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.01%, #FFFFFF 49.48%, rgba(255, 255, 255, 0) 100%);
 }
@@ -974,4 +991,11 @@ footer{ transition: 0.3s; margin: 0 auto;}
 .container__none
 {
     display: none;
+}
+
+form 
+{
+    min-width: 0px;
+    max-width: 350px;
+    width: 90%;
 }

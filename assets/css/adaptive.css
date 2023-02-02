@@ -17,6 +17,10 @@
     {
         grid-template-columns: 1fr;
     }
+    .wrapper_services
+    {
+        grid-template-columns: 1fr;
+    }
     .text_advantages
     {
         justify-content: center;
@@ -27,12 +31,24 @@
         max-width: 650px;
         width: 100%;
     }
+    .text_services > p {
+        min-width: 0px;
+        max-width: 650px;
+        width: 100%;
+    }
     .secret__container_courses-active
     {
         grid-template-columns: 1fr 1fr 1fr ;
         min-width: 100px;
         max-width: 2000px;
         width: 100%;
+    }
+    .s-footer > form
+    {
+        margin-left: 450px;
+    }
+    .text_services {
+        justify-content: center;
     }
     
 }
@@ -80,6 +96,10 @@
     .secret__container_courses-active
     {
         grid-template-columns: 1fr 1fr ;
+    }
+    .s-footer > form
+    {
+        margin-left: 300px;
     }
 }
 
@@ -134,6 +154,10 @@
     .container_person::before
     {
         margin-top: 1150px;
+    }
+    .s-footer > form
+    {
+        margin-left: 150px;
     }
 }
 
@@ -193,6 +217,17 @@
         display: flex;
         margin: 0 auto;
         margin-top: 40px;
+    }
+    .s-footer
+    {
+        display: grid;
+        justify-content: center;
+        margin-left: -25px;
+    }
+    .s-footer > form
+    {
+        margin-left: 25px;
+        margin-top: 50px;
     }
 }
 
@@ -284,6 +319,11 @@
         font-size: 32px;
         font-weight: 300;
     }
+    .container_services > h1
+    {
+        font-size: 32px;
+        font-weight: 300;
+    }
     .text_advantages > p 
     {
         font-size: 16px;
@@ -303,8 +343,39 @@
         font-size: 20px;
         padding-left: 40px;
     }
-}
+    .container_guarantees > h1 
+    {
+        font-size: 32px;
+        font-weight: 300;
+    }
+    .container_guarantees > h1 > img
+    {
+        position: absolute;
+        margin-top: 3px;
+        margin-left: 5px;
+        padding-right: 15px;
+        width: 60px;
+    }    
 
+    .container_guarantees > p 
+    {
+        font-size: 16px;
+    }
+
+    .container_footer > h1
+    {
+        font-size: 32px; 
+        font-weight: 300;
+    }
+    .s-footer > div > p 
+    {
+        font-size: 16px; 
+    }
+    .s-svg_footer > a > svg 
+    {
+        width: 25px;
+    }
+}
 
 @media (max-width: 425px) {
     /* когда курсы */
@@ -319,6 +390,14 @@
     .statistics_box
     {
         margin-top: 10px;
+    }
+    .s-footer > form
+    {
+
+    }
+    .t-input_bbonly
+    {
+        width: 280px;
     }
 }
 
