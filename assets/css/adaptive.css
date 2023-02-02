@@ -56,32 +56,56 @@
 
 @media (max-width: 1024px) {
     .container_salary > h1
-{
-    font-size: 32px;
-    min-width: 200px;
-    max-width: 660px;
-    width: 100%;
-}
-.container_salary > p
-{
-    font-size: 16px;
-    min-width: 200px;
-    max-width: 660px;
-    width: 100%;
-}
-.info_salary > div > p
-{
-    font-size: 16px;
-    font-weight: 400;
-    min-width: 100px;
-    max-width: 250px;
-    width: 100%;
-}
+    {
+        font-size: 32px;
+        min-width: 200px;
+        max-width: 660px;
+        width: 100%;
+    }
+    .container_salary > p
+    {
+        font-size: 16px;
+        min-width: 200px;
+        max-width: 660px;
+        width: 100%;
+    }
+    .info_salary > div > p
+    {
+        font-size: 16px;
+        font-weight: 400;
+        min-width: 100px;
+        max-width: 250px;
+        width: 100%;
+    }
+    
+    .info_salary > div > p > span 
+    {
+        font-weight: 500;
+    }
+    /**/
+    .container_cards
+    {
+        display: grid;
+    } 
+    .container_cards > .card
+    {
 
-.info_salary > div > p > span 
-{
-    font-weight: 500;
-}
+        width: 380px;
+    }
+    .container_cards > .none_border
+    {
+        border-width: 0px 2px;
+        border-style: solid;
+        border-color: var(--border-person);
+    }
+    .container_cards > .__BB
+    {
+        border-width: 0px  2px 2px;
+    }
+    .container_person::before
+    {
+        margin-top: 1150px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -93,7 +117,15 @@
     {
         width: 420px;
     }
-
+    .barracks:hover .info_barracks {
+        display: block;
+        margin-top: -270px;
+        text-align: left;
+        margin-left: 25px;
+        min-width: 74px;
+        max-width: 260px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 650px) {
@@ -195,6 +227,11 @@
     .line__info_courses > p 
     {
         font-size: 14px;
+    }
+    .container_cards > .card
+    {
+
+        width: 300px;
     }
 }
 

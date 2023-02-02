@@ -51,7 +51,9 @@
     margin-top: -270px;
     text-align: left;
     margin-left: 35px;
-    width: 280px;
+    min-width: 200px;
+    max-width: 260px;
+    width: 100%;
 }
 
 .barracks:hover > .name_barracks
