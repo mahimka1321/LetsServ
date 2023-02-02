@@ -18,15 +18,23 @@
         grid-template-columns: 1fr;
     }
     .text_advantages
-{
-    justify-content: center;
-}
-.text_advantages > p 
-{
-    min-width: 0px;
-    max-width: 650px;
-    width: 100%;
-}
+    {
+        justify-content: center;
+    }
+    .text_advantages > p 
+    {
+        min-width: 0px;
+        max-width: 650px;
+        width: 100%;
+    }
+    .secret__container_courses-active
+    {
+        grid-template-columns: 1fr 1fr 1fr ;
+        min-width: 100px;
+        max-width: 2000px;
+        width: 100%;
+    }
+    
 }
 
 @media (max-width: 1200px) {
@@ -67,6 +75,11 @@
     .info_salary > div
     {
         margin-left: 70px;
+    }
+
+    .secret__container_courses-active
+    {
+        grid-template-columns: 1fr 1fr ;
     }
 }
 
@@ -141,6 +154,45 @@
         min-width: 74px;
         max-width: 260px;
         width: 100%;
+    }
+
+    .info_courses > div > h1
+    {
+        font-size: 32px;
+        font-weight: 400;
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+    
+    .info_courses > div > p
+    {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    
+    .info_courses > div > h4
+    {
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 8px;
+        margin-left: 25px;
+    }
+    .secret__container_courses-active
+    {
+        grid-template-columns: 1fr ;
+        margin: 0 auto;
+    }
+    .info_courses
+    {
+        display: grid;
+    }
+    .statistics_courses 
+    {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 40px;
     }
 }
 
@@ -236,6 +288,21 @@
     {
         font-size: 16px;
     }
+    .container_courses ._courses > p 
+    {
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .container_popap > span
+    {
+        font-size: 20px;
+    }
+    .container_popap > .esc_popap
+    {
+        font-size: 20px;
+        padding-left: 40px;
+    }
 }
 
 
@@ -244,6 +311,14 @@
     .line__info_courses
     {
         height: 60px;
+    }
+    .statistics_courses 
+    {
+        display: grid;
+    }
+    .statistics_box
+    {
+        margin-top: 10px;
     }
 }
 

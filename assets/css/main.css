@@ -523,7 +523,9 @@ body
 {
     display: flex;
     margin: 0 auto;
-    width: 1920px;
+    min-width: 0px;
+    max-width: 1920px;
+    width: 100%;
 }
 
 .container_courses
@@ -536,11 +538,15 @@ body
     background: #000;
     overflow: hidden;
     margin-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .container__control_courses
 {
-    margin-left: 260px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .info_courses
@@ -599,7 +605,7 @@ body
 {
     overflow: hidden;
     border-bottom: 1px solid var(--border-person);
-    height: 50px;
+    height: 70px;
 }
 
 .courses_active
@@ -609,6 +615,7 @@ body
     min-height: 250px;
     max-height: 5000px;
     height: 100%;
+    width: 100%;
 }
 
 ._courses
@@ -620,7 +627,7 @@ body
 
 .container_courses ._courses > p
 {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .control__swap_courses
@@ -646,6 +653,8 @@ body
 {
     opacity: 1;
     transition: 0.6s;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
 
 .secret_courses
@@ -768,7 +777,7 @@ body
     left: 50%;
     transform: translate(-50%);
     margin-top: 55px;
-    min-width: 320px;
+    min-width: 200px;
     max-width: 700px;
     background: #101010;
     box-shadow: 0 4px 15px 1px #e3e3e349;
@@ -784,9 +793,10 @@ body
     display: grid;
     margin: 0 auto;
     overflow-y: scroll;
+    overflow-x: hidden;
     margin-top: 80px;
     height: 0px;
-    min-width: 290px;
+    min-width: 200px;
     max-width: 550px;
     width: 100%;
     padding-bottom: 50px;
